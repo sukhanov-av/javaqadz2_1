@@ -2,16 +2,16 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int phonebalance = 50;
-        int phonepayment = 1001;
+        int phoneBalance = 50;
+        int phonePayment = 1200;
 
         int bonus;
-        if (phonepayment > 1000) {
-            bonus = phonepayment / 100;
+        if (phonePayment > 1000) {
+            bonus = phonePayment / 100;
         } else {
             bonus = 0;
         }
-        int balance = phonebalance + phonepayment + bonus;
+        int balance = phoneBalance + phonePayment + bonus;
 
         System.out.println("Java-телеком приветствует вас!");
         System.out.println("Ваш счет составляет " + balance + " руб. ");
